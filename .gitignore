@@ -1,0 +1,12 @@
+.DS_Store
+scripts/.DS_Store
+scripts/archive
+tools/.DS_Store
+tools/tv/.DS_Store
+tools/tv/__pycache__
+tools/tv/restore2021
+tools/tv/scripts
+tools/radio/.DS_Store
+tools/radio/__pycache__
+tools/radio/restore2021
+tools/radio/scripts

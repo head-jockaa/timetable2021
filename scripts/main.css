@@ -1,0 +1,223 @@
+.program_time {
+	font-weight: bold;
+	color: #008000;
+	margin-right: 2px;
+}
+
+.program_icon {
+	background-color: #4040ff;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.icon_new {
+	background-color: #ff0000;
+}
+
+.icon_re {
+	background-color: #808080;
+}
+
+.icon_end {
+	background-color: #000000;
+}
+
+.program_title {
+	color: #000080;
+	font-weight: bold;
+}
+
+.program_chapter {
+	color: #202020;
+	font-style: italic;
+}
+
+.program_desc {
+	color: #505050;
+}
+
+.program_category {
+	color: #ffffff;
+	background-color: #808080;
+	border-radius: 5px;
+}
+
+.program_sub_category {
+	color: #ffffff;
+	background-color: #a0a0a0;
+	border-radius: 5px;
+}
+
+.table_cell_inner {
+	border: 1px solid #a0a0ff;
+	background-color: #f4f4ff;
+}
+
+.table_cell_news {
+	background-color: #e8e8e8;
+}
+
+.table_cell_sports {
+	background-color: #ffffff;
+}
+
+.table_cell_information {
+}
+
+.table_cell_drama {
+	background-color: #80ff80;
+}
+
+.table_cell_anime {
+	background-color: #ffb0b0;
+}
+
+.table_cell_music {
+	background-color: #ffff80;
+}
+
+.table_cell_variety {
+	background-color: #c8c8ff;
+}
+
+.table_cell_movie {
+	background-color: #00ffff;
+}
+
+.table_cell_anime {
+	background-color: #ffb8b8;
+}
+
+.table_cell_documentary {
+	background-color: #e8e8e8;
+}
+
+.table_cell_theater {
+	background-color: #ffff80;
+}
+
+.table_cell_education {
+	background-color: #c8c8ff;
+}
+
+.table_cell_welfare {
+}
+
+.table_cell_nodata {
+	background-color: #606060;
+}
+
+#hour_bar {
+	width: 30px;
+	background-color: #000040;
+}
+
+#hour_bar_header {
+	width: 30px;
+	height: 4em;
+	background-color: blue;
+}
+
+.hour_bar_cell {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	border: solid 1px #0000ff;
+}
+
+.tv_table_header {
+	background-color: #404040;
+	text-align: center;
+	vertical-align: top;
+	height: 4em;
+	position: relative;
+	display: inline-block;
+}
+
+.tv_table_header_date {
+	color: #d0d0d0;
+}
+
+.tv_table_header_date_button {
+	background-color: #00c000;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.tv_table_header_station_name {
+	font-weight: bold;
+}
+
+.tv_table_header_close_button {
+}
+
+.menu_modal {
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	left: 2%;
+	top: 40%;
+	width: 96%;
+	height: 58%;
+}
+
+.search_modal {
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	left: 20%;
+	top: 10%;
+	width: 50%;
+	height: 80%;
+}
+
+.calendar_menu {
+	background-color: #f0f0ff;
+	border: 1px #808080 dotted;
+}
+
+.btn {
+	font-size: 1.2rem;
+	font-weight: 700;
+	position: relative;
+	display: inline-block;
+	padding: 0.1rem 0.4rem;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	border-radius: 0.5rem;
+}
+
+.btn--green.btn--emboss {
+	color: #00662d;
+	text-shadow: -1px -1px 1px #00ff71;
+	background-color: #90f090;
+	border-bottom: 5px solid #00662d;
+}
+
+.btn--green.btn--cubic:hover {
+	margin-top: 3px;
+	border-bottom: 2px solid #00662d;
+}
+
+.btn--blue.btn--emboss {
+	color: #ffffff;
+	text-shadow: -1px -1px 1px #808080;
+	background-color: #4040ff;
+	border-bottom: 5px solid #002d66;
+}
+
+.btn--blue.btn--cubic:hover {
+	margin-top: 3px;
+	border-bottom: 2px solid #002d66;
+}
