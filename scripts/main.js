@@ -1203,7 +1203,7 @@ function add_tv(tv, month, day, insert) {
 			}
 
 			if (programs[i].nodata) {
-				result += '<div class="table_cell" value="' + cell_height + '" onmouseover="wide_cell(this)" onmouseout="narrow_cell(this)" style="transition: all 0.1s linear;">';
+				result += '<div class="table_cell" value="' + cell_height + '" onmouseover="wide_cell(this)" onmouseleave="narrow_cell(this)" style="transition: all 0.1s linear;">';
 				result += '<div class="table_cell_inner table_cell_nodata" style="overflow:hidden;transition: all 0.1s linear;">';
 				result += '<span class="program_time" style="font-size:' + font_size + 'px;">' + programs[i].start_time + '</span>';
 				result += '<br /><span class="program_category" style="font-size:' + (font_size*0.9) + 'px;">データなし</span>';
@@ -1246,7 +1246,7 @@ function add_tv(tv, month, day, insert) {
 				}
 				var args = "'" + station_name + "','" + programs[i].title.replace("'", "\\'") + "','" + programs[i].chapter.replace("'", "\\'") + "','" + month + "','" + day + "','" + programs[i].start_time + "','" + programs[i].interval + "','" + types_string + "','" + programs[i].category_id + "','" + programs[i].sub_category_id + "','" + programs[i].description.replace("'", "\\'") + "'";
 
-				result += '<div class="table_cell" value="' + cell_height + '" onclick="show_program_modal(' + args + ')" onmouseover="wide_cell(this)" onmouseout="narrow_cell(this)" style="transition: all 0.1s linear;">';
+				result += '<div class="table_cell" value="' + cell_height + '" onclick="show_program_modal(' + args + ')" onmouseover="wide_cell(this)" onmouseleave="narrow_cell(this)" style="transition: all 0.1s linear;">';
 				result += '<div class="table_cell_inner ' + class_name + '" style="overflow:hidden;transition: all 0.1s linear;">';
 
 				result += render_program_cell(programs[i], font_size);
